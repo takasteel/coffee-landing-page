@@ -63,7 +63,48 @@ export const Section1 = styled.section`
 `
 
 export const Section2 = styled.section`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "main main kenya";
+  position: relative;
+  background-size: cover;
+  background-position: 40% center;
+  background-image: url("assets/bg2.jpg");
+  
+  article {
+    grid-area: main;
+    display: flex;
+    align-items: center;
+    height: 92vh;
 
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      max-height: 560px;
+      max-width: 70%;
+
+      margin-left: 10rem;
+
+      p {
+        font-size: 3.5rem;
+      }
+
+      a {
+        font-size: 2rem;
+        text-decoration-line: underline;
+      }
+    }
+  }
+
+  &>div {
+    grid-area: kenya;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10rem;
+  }
 `
 export const Section3 = styled.section`
 
