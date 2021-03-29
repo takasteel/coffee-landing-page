@@ -21,7 +21,7 @@ export function Main() {
           <div>
             <p>the best arabica coffee, from the best producers;</p>
             <p>direct from Kenya;</p>
-            <a href="#">Learn more</a>
+            <span><a href="#">Learn more</a></span>
           </div>
         </article>
         <Hidden mdDown>
@@ -30,6 +30,21 @@ export function Main() {
           </div>
         </Hidden>
       </Section2>
+      <Section3>
+        <article>
+        </article>
+      </Section3>
+      <Section4>
+        <article>
+          <div>
+            <Hidden mdDown>
+              <p className="section4-hidden">you can make you own coffee at home;</p>
+            </Hidden>
+            <p>or you can grab your cup at your local coffee shop;</p>
+            <span><a href="#">check the nearby coffee shop</a></span>
+          </div>
+        </article>
+      </Section4>
     </Container>
   );
 }

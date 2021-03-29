@@ -7,7 +7,6 @@ export const Container = styled.div`
 export const Section1 = styled.section`
   display: flex;
   justify-content: center;
-  position: relative;
   background-size: cover;
   background-position: 40% center;
   background-image: url("assets/bg1.jpg");
@@ -66,14 +65,13 @@ export const Section2 = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "main main kenya";
-  position: relative;
+  "main-content main-content kenya";
   background-size: cover;
-  background-position: 40% center;
+  background-position: center center;
   background-image: url("assets/bg2.jpg");
   
   article {
-    grid-area: main;
+    grid-area: main-content;
     display: flex;
     align-items: center;
     height: 92vh;
@@ -91,7 +89,7 @@ export const Section2 = styled.section`
         font-size: 3.5rem;
       }
 
-      a {
+      span > a {
         font-size: 2rem;
         text-decoration-line: underline;
       }
@@ -107,8 +105,49 @@ export const Section2 = styled.section`
   }
 `
 export const Section3 = styled.section`
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("assets/bag.jpg");
 
+  article {
+    height: 1116px;
+  }
 `
 export const Section4 = styled.section`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "main-content .";
+  justify-content: center;
+  background-size: cover;
+  background-position: 85% center;
+  background-image: url("assets/cup.jpg");
 
+  article {
+    grid-area: main-content;
+    height: 92vh;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3rem;
+      width: 100%;
+      height: 100%;
+      margin-left: 10rem;
+      padding-right: 10rem;
+
+      p {
+        font-size: 3.5rem;
+      }
+      
+      span > a {
+        font-size: 2rem;
+        text-decoration-line: underline;
+      }
+
+    }
+  }
 `
