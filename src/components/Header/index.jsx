@@ -34,7 +34,7 @@ export function Header() {
           </nav>
           <div>
             <a href="/">login</a>
-            <a href="/">sing up</a>
+            <a href="/">sign up</a>
           </div>
         </BigMenu>
       </Hidden>
@@ -57,7 +57,7 @@ export function Header() {
                   <li><a href="/">our coffee</a></li>
                   <li><a href="/">nearby coffee shop</a></li>
                   <li><a href="/">login</a></li>
-                  <li><a href="/">sing up</a></li>
+                  <li><a href="/">sign up</a></li>
                 </ul>
               </nav>
             </SmallMenu>
