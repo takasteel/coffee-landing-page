@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   :root {
     --bg: #1f231e;
+    --highlight: #EBAE7D;
   }
   * {
       margin: 0;
@@ -22,15 +23,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+      width: 100%;
       ul {
         list-style-type: none;
       }
       a{
         text-decoration: none;
-        /* transition: color 0.2s;w */
+        transition: color 0.2s;
       }
       a:hover, a:focus {
-        color: #dbb79a
+        color: var(--highlight);
       }
       button {
         cursor: pointer;
