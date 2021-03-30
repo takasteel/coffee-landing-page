@@ -4,7 +4,9 @@
 This was just a challenge that I made for myself, I created a prototype and transformed it into code.   
 
 You can check the demo [here](https://takasteel.github.io/coffee-landing-page/).  
-(The anchor links don't work, this is just a single page project) 
+(The anchor links don't work, this is just a single page project)  
+
+Mockups by [mrmockup](https://mrmockup.com/).
 
 ## Installation
 
