@@ -311,7 +311,7 @@ export const Section4 = styled.section`
   ". main-content";
   justify-content: center;
   background-size: cover;
-  background-position: 15% center;
+  background-position: 15% 80%;
   background-image: url("assets/cup.jpg");
 
   article {
